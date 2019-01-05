@@ -1,0 +1,21 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "hashids": "^1.2.2",
+    "install": "^0.12.2",
+    "mongoose": "^5.3.15",
+    "npm": "^6.5.0",
+    "ws": "^6.1.2"
+  }
+}

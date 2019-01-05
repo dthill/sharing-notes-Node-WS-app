@@ -1,0 +1,9 @@
+{{#if error_msg}}
+	<div class="w3-panel w3-teal w3-card w3-display-container w3-center">
+		<span onclick="this.parentElement.style.display='none'" 
+		class="w3-hover-text-black w3-padding w3-display-right" style="cursor:default">
+			&#10005;
+		</span>
+		<p>{{error_msg}}</p>
+	</div>
+{{/if}}

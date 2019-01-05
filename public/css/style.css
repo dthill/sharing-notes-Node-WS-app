@@ -1,0 +1,38 @@
+body {
+	background-color: lightgray;
+}
+
+h1 {
+	margin: 0;
+}
+
+.form-input {
+    text-align: center;
+}
+
+.note {
+	margin: 1rem auto;
+	float: none;
+}
+
+.note-title {
+	padding: 0;
+	border: 1px solid lightgrey;
+	resize: none;
+	text-align: center;
+	width: 100%;
+	overflow: scroll;
+    text-overflow: ellipsis;
+}
+
+.note-body {
+	box-sizing: padding-box;
+	display:block;
+	border: none;
+	resize: none;
+	width: 100%;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    height: auto;
+    min-height: 10vh;
+}

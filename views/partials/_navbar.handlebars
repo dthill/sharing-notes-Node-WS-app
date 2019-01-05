@@ -1,0 +1,10 @@
+<div class="w3-container w3-center">
+	{{#if note}}
+	<a class="w3-button w3-black w3-center" href="mailto:?subject=Shared%20note%20link&body=http://{{host}}/{{id}}">
+		<i class="fas fa-share-square"></i>
+	</a>
+	<a class="w3-button w3-red" href="/delete/{{id}}" onclick="return confirm('Delete this note?')">
+		<i class="far fa-trash-alt"></i>
+	</a>
+	{{/if}}
+</div>
