@@ -1,17 +1,17 @@
-http://peaceful-eyrie-54198.herokuapp.com/
-
 # Sharing-Notes-App
 
 Node app using Express, Mongoose/MongoDB and Websocket/ws to create real time notes that can be shared through a permalink.
 Build as an exercise to learn to use Node with Websockets and Mongoose.
+To try the app visit:
+http://peaceful-eyrie-54198.herokuapp.com/
 
 ## Getting Started
 
 Click on
 
-...
+```
 Create a new note
-...
+```
 
 Type your note and share the link.
 
